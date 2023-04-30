@@ -12,8 +12,9 @@ class Vocabulary(metaclass=SignletonMetaclass):
     if corpus is not None and self._counter_vocabulary is None:
       corpus = corpus.lower()
       corpus = unidecode(corpus)
-      tokens = re.findall(r'\w+',corpus)
+      tokens = list(set(re.findall(r'\w+',corpus)))
       self._counter_vocabulary = Counter(tokens)
     if collections is not None and self._vocabulary is None:
+      collections = list(set([unidecode(word).lower() for word in collections]))
       self._vocabulary = collections
   
