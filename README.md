@@ -9,9 +9,9 @@ Was implemented a basic system, that contains a DynamicEditDistance process, a v
 
 ## TODO
 
-[ ] Vocabulary based corpus
-[ ] System autocorrect based corpus probability
-[ ] Backtrace to align strings like DNA codes
+* [ ] Vocabulary based corpus
+* [ ] System autocorrect based corpus probability
+* [ ] Backtrace to align strings like DNA codes
 
 
 ## Execution
