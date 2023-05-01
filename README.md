@@ -5,7 +5,7 @@ Auto correct system with portuguese vocabulary example.
 
 It's a simple Auto Correct implemented based on "Natural Language Processing with Probabilistic Models" course, from deeplearning.ai.
 
-Was implemented a basic system, that contains a DynamicEditDistance process, a vocabulary builder ands others functions. 
+Was implemented a basic system, that contains a DynamicEditDistance process, a vocabulary builder and others functions. 
 
 ## TODO
 
